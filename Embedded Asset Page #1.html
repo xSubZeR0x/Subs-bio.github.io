@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Asset Page #1</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            animation: slideIn 2s ease-in-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(10000%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <iframe src="http://www.subs-bio.fun/asset%20page%201.html" frameborder="0" allowfullscreen></iframe>
+
+</body>
+</html>
